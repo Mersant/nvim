@@ -4,6 +4,8 @@
 vim.g.autoformat = false
 
 local set = vim.opt
-set.tabstop = 4
-set.shiftwidth = 4
-set.expandtab = true
+set.copyindent = true
+set.preserveindent = true
+set.softtabstop=0
+set.shiftwidth=4
+set.tabstop=4
