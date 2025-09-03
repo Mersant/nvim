@@ -5,6 +5,7 @@
 local set = vim.opt
 set.copyindent = true
 set.preserveindent = true
-set.softtabstop=0
-set.shiftwidth=4
-set.tabstop=4
+set.expandtab = false
+set.softtabstop = 0
+set.shiftwidth = 8
+set.tabstop = 8
